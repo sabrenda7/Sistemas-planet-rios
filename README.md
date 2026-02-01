@@ -34,7 +34,7 @@ Além do aspecto científico, o projeto reforça boas práticas de programação
 * Como executar o projeto
 
 1. Clone o repositório:
-git clone https://github.com/seuusuario/sistemas-planet-rios.git
+git clone https://github.com/sabrenda7/sistemas-planet-rios.git
 
 2. Instale as dependências:
 pip install -r requirements.txt
