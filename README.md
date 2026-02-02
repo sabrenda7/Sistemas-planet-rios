@@ -3,6 +3,11 @@ CALCULADORA DE PARÂMETROS EXOPLANETÁRIOS
 Aplicação desenvolvida em Python com Streamlit para o cálculo e análise de parâmetros físicos e orbitais de exoplanetas, com foco educacional e científico.
 O projeto permite explorar relações entre propriedades planetárias e estelares, facilitando a compreensão de conceitos fundamentais da astrofísica de exoplanetas por meio de uma interface interativa.
 
+<p align="center">
+  <img src="images/app_preview.jpg" width="700">
+</p>
+
+
 --------------------------------------------------
 
 Funcionalidades
