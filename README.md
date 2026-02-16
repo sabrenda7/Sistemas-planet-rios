@@ -60,5 +60,5 @@ Aprendizados
 
 Autora:
 Brenda Sa
-Graduanda em Astrofísica e Desenvolvedora Back-End Jr
+Graduanda em Astrofísica e Desenvolvedora Back-End Jr | 
 GitHub: https://github.com/sabrenda7
