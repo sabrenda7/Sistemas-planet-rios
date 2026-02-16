@@ -19,28 +19,28 @@ if pagina == "Introdução":
     
     img_col2, img_col3= st.columns(2)        
     with img_col2:
-        st.image("images/capa.png", width=400, caption="Ilustração do sistema HD 209458")
+        st.image("Sistemas-planet-rios/images/capa.png", width=400, caption="Ilustração do sistema HD 209458")
     with img_col3:
-        st.image("images/superterra.jpg", width=350, caption="Ilustação do LHS 1140b, considerado uma Super Terra potencialmente habitável.")
+        st.image("Sistemas-planet-rios/images/superterra.jpg", width=350, caption="Ilustação do LHS 1140b, considerado uma Super Terra potencialmente habitável.")
 
     st.subheader("HD 209458b")
-    st.image("images/ilustracao.jpg", width=250, caption="Ilustração dramática do planeta HD 209458b queimando em sua orbita")
+    st.image("Sistemas-planet-rios/images/ilustracao.jpg", width=250, caption="Ilustração dramática do planeta HD 209458b queimando em sua orbita")
     st.text("Este foi o pioneiro dos exoplanetas descobertos e confirmados pelos métodos de velocidade radial e de trânsito planetário. Também foi o primeiro exoplaneta onde foi detectada uma atmosfera. Ele é um gigante gasoso e está orbitando muito próximo de sua estrela hospedeira. Em 2003, astrônomos descobriram que o HD 209458b está perdendo sua atmosfera." \
     " A estrela hospederia, conhecida como V376 Pegasi, é bem parecida com a nossa estrela Sol, não é visivel a olho nu mas pode ser encontrada facilmete usando um binóculo ou telescópio. Ela está localizada na constelação de Pegasus.")
     imge_col1, imge_col2= st.columns(2)        
     with imge_col1:
-        st.image("images/radialhd.gif", width=400, caption="Velocidades para HD 209458 (anã G0). A linha sólida é um ajuste sinusoidal com um período de 3,5239 dias e uma semiamplitude de 81 m s-1, resultando em uma massa mínima M sen i = 0,62 MJup para o companheiro. O rms do ajuste sinusoidal é de 2,27 m s-1, menor do que os erros esperados de 3,7 m s-1.")
+        st.image("Sistemas-planet-rios/images/radialhd.gif", width=400, caption="Velocidades para HD 209458 (anã G0). A linha sólida é um ajuste sinusoidal com um período de 3,5239 dias e uma semiamplitude de 81 m s-1, resultando em uma massa mínima M sen i = 0,62 MJup para o companheiro. O rms do ajuste sinusoidal é de 2,27 m s-1, menor do que os erros esperados de 3,7 m s-1.")
     with imge_col1:
-        st.image("images/transito hd.gif", width=400, caption="Observações fotométricas de HD 209458 da noite de 7 de novembro de 1999 UT mostrando a entrada do trânsito planetário. A profundidade de passagem medida é 0,017±0,002 mag ou 1,58%±0,18%. A barra de erro mostra o tempo de conjunção inferior e sua incerteza prevista a partir das velocidades radiais nesta Carta.")
+        st.image("Sistemas-planet-rios/images/transito hd.gif", width=400, caption="Observações fotométricas de HD 209458 da noite de 7 de novembro de 1999 UT mostrando a entrada do trânsito planetário. A profundidade de passagem medida é 0,017±0,002 mag ou 1,58%±0,18%. A barra de erro mostra o tempo de conjunção inferior e sua incerteza prevista a partir das velocidades radiais nesta Carta.")
     
     st.subheader("LHS 1140b")
-    st.image("images/esolhs.jpg", width=350, caption="Ilustração artística do sistema LHS 1140.")
+    st.image("Sistemas-planet-rios/images/esolhs.jpg", width=350, caption="Ilustração artística do sistema LHS 1140.")
     st.text("O LHS 1140b foi descoberto em 2017 pelo método da trânsito planetário, e foi confirmado pelo método de velocidade radial. Ele é um planeta rochoso assim como a Terra e está orbitando na zona habitável de uma anã vermelha, a LHS 1140, localizada na constelação de Cetus. Dadas suas características parecidas com as da Terra, esse exoplaneta vem sendo visto como um forte candidato para a busca de vida extraterrestre. A estrela LHS 1140 não é visível a olho nu, mas é um alvo prioritário para o Telescópio Espacial James Webb.")
     lhs_col1, lhs_col2= st.columns(2)
     with lhs_col1:
-        st.image("images/radial_lhs.jpg", width= 400, caption= "Velocidade radial do LHS 1140 dos conjuntos de dados HARPS (vermelho) e ESPRESSO (aberto para ESPRESSOpre e preenchido para ESPRESSOpost em verde). A linha preta mostra o modelo de velocidade radial mediana da análise fotométrica e de velocidade radial conjunta. As regiões sombreadas em cinza correspondem aos intervalos de confiança de 68,7% (cinza escuro) e 95% (cinza claro) do modelo. O modelo GP mediano é mostrado como uma linha azul tracejada. Meio: conjunto de dados de velocidade radial após a remoção do modelo GP mediano. O modelo Kepleriano é mostrado como uma linha preta sólida. Abaixo: resíduos de velocidade radial do modelo completo.")
+        st.image("Sistemas-planet-rios/images/radial_lhs.jpg", width= 400, caption= "Velocidade radial do LHS 1140 dos conjuntos de dados HARPS (vermelho) e ESPRESSO (aberto para ESPRESSOpre e preenchido para ESPRESSOpost em verde). A linha preta mostra o modelo de velocidade radial mediana da análise fotométrica e de velocidade radial conjunta. As regiões sombreadas em cinza correspondem aos intervalos de confiança de 68,7% (cinza escuro) e 95% (cinza claro) do modelo. O modelo GP mediano é mostrado como uma linha azul tracejada. Meio: conjunto de dados de velocidade radial após a remoção do modelo GP mediano. O modelo Kepleriano é mostrado como uma linha preta sólida. Abaixo: resíduos de velocidade radial do modelo completo.")
     with lhs_col2:
-         st.image("images/transitolhs.jpg", width= 400, caption= "Trânsito da curva de luz branca de LHS 1140 b com o WFC3 no HST. O modelo de transporte de transporte de melhor ajuste é mostrado em azul, com os resíduos do ajuste mostrados no painel inferior.")
+         st.image("Sistemas-planet-rios/images/transitolhs.jpg", width= 400, caption= "Trânsito da curva de luz branca de LHS 1140 b com o WFC3 no HST. O modelo de transporte de transporte de melhor ajuste é mostrado em azul, com os resíduos do ajuste mostrados no painel inferior.")
 
     # Dados da tabela
     dados = {
@@ -294,7 +294,7 @@ else:
         st.write(f"Raio: {R_star} R☉")
         st.write(f"Temperatura: {T_star} K")
         st.write(f"Luminosidade: {L_star:.4f} L☉")
-        st.image("exoplanetas/exoplanet.jpg", width=400)
+        st.image("Sistemas-planet-rios/images/exoplanet.jpg", width=400)
 
     with col2:
         st.subheader("Planeta")
